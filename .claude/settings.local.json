@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm --version:*)",
+      "Bash(node --version:*)",
+      "Bash(npm i:*)",
+      "Bash(where:*)",
+      "Bash(\"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" install)",
+      "Bash(npm run build:*)",
+      "Bash(\"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" run build)",
+      "WebFetch(domain:www.les-transex.com)",
+      "Bash(copy:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}
