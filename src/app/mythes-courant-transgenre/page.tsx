@@ -8,14 +8,14 @@ const BASE_URL = `https://www.${SITE_DOMAIN}`;
 
 export const metadata: Metadata = {
   title: "Mythes Courants sur les Personnes Transgenres : Faits vs Fiction",
-  description: "Demystifions les idees recues sur les personnes trans. Decouvrez la verite scientifique derriere les mythes les plus repandus.",
-  keywords: ["mythes transgenre", "idees recues trans", "verite transgenre", "science transgenre", "prejuges trans"],
+  description: "Démystifions les idées reçues sur les personnes trans. Découvrez la vérité scientifique derrière les mythes les plus répandus.",
+  keywords: ["mythes transgenre", "idées reçues trans", "vérité transgenre", "science transgenre", "préjugés trans"],
   alternates: {
     canonical: '/mythes-courant-transgenre',
   },
   openGraph: {
     title: "Mythes Courants sur les Personnes Transgenres : Faits vs Fiction",
-    description: "Demystifions les idees recues sur les personnes trans.",
+    description: "Démystifions les idées reçues sur les personnes trans.",
     url: `${BASE_URL}/mythes-courant-transgenre`,
     type: 'article',
     publishedTime: '2023-07-08',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Mythes Courants sur les Personnes Transgenres",
-    description: "Demystifions les idees recues sur les personnes trans.",
+    description: "Démystifions les idées reçues sur les personnes trans.",
   },
 };
 
@@ -33,11 +33,11 @@ export default function MythesTransgenrePage() {
   return (
     <>
       <ArticleSchema
-        title="Demasquer les Fictions : Mythes Courants sur les Personnes Transgenres"
-        description="Demystifions les idees recues sur les personnes trans avec des faits scientifiques."
+        title="Démasquer les Fictions : Mythes Courants sur les Personnes Transgenres"
+        description="Démystifions les idées reçues sur les personnes trans avec des faits scientifiques."
         slug="mythes-courant-transgenre"
         datePublished="2023-07-08"
-        category="Education"
+        category="Éducation"
       />
       <BreadcrumbSchema
         items={[
@@ -58,11 +58,11 @@ export default function MythesTransgenrePage() {
           </nav>
 
           <div className="inline-block bg-white/20 text-sm font-medium px-3 py-1 rounded-full mb-4">
-            Education
+            Éducation
           </div>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Demasquer les Fictions : Mythes Courants sur les Personnes Transgenres
+            Démasquer les Fictions : Mythes Courants sur les Personnes Transgenres
           </h1>
 
           <div className="flex items-center gap-4 text-pink-200">
@@ -78,8 +78,8 @@ export default function MythesTransgenrePage() {
         <div className="max-w-3xl mx-auto px-4">
           <div className="prose prose-lg prose-pink max-w-none">
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              Comprendre l&apos;experience transgenre necessite de distinguer les faits des fictions.
-              Demystifier les conceptions erronees est essentiel pour cultiver un monde plus inclusif
+              Comprendre l&apos;expérience transgenre nécessite de distinguer les faits des fictions.
+              Démystifier les conceptions erronées est essentiel pour cultiver un monde plus inclusif
               et faciliter les <strong>rencontres trans</strong> respectueuses.
             </p>
 
@@ -92,22 +92,22 @@ export default function MythesTransgenrePage() {
             </div>
 
             <p>
-              Contrairement a cette idee recue, l&apos;identite transgenre ne releve pas de la confusion.
-              Selon des etudes publiees dans <em>The Lancet Psychiatry</em>, l&apos;identite de genre est
-              une experience profondement enracinee. La plupart des personnes transgenres comprennent
-              clairement leur identite, souvent des leur plus jeune age.
+              Contrairement à cette idée reçue, l&apos;identité transgenre ne relève pas de la confusion.
+              Selon des études publiées dans <em>The Lancet Psychiatry</em>, l&apos;identité de genre est
+              une expérience profondément enracinée. La plupart des personnes transgenres comprennent
+              clairement leur identité, souvent dès leur plus jeune âge.
             </p>
 
             <p>
-              Cette certitude interieure est ce qui pousse de nombreuses personnes a entreprendre
-              leur transition, malgre les defis sociaux. Si vous souhaitez faire des
+              Cette certitude intérieure est ce qui pousse de nombreuses personnes à entreprendre
+              leur transition, malgré les défis sociaux. Si vous souhaitez faire des
               <Link href="/region/ile-de-france" className="text-pink-600 hover:text-pink-700 font-medium"> rencontres trans en Ile-de-France</Link> ou
-              ailleurs, gardez a l&apos;esprit que les femmes trans que vous rencontrerez ont generalement
-              une conscience tres claire de leur identite.
+              ailleurs, gardez à l&apos;esprit que les femmes trans que vous rencontrerez ont généralement
+              une conscience très claire de leur identité.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
-              Mythe 2 : Etre transgenre est une mode recente
+              Mythe 2 : Être transgenre est une mode récente
             </h2>
 
             <div className="bg-red-50 border-l-4 border-red-500 p-4 my-6 rounded-r-xl">
@@ -115,26 +115,26 @@ export default function MythesTransgenrePage() {
             </div>
 
             <p>
-              L&apos;histoire nous montre le contraire. Les identites transgenres existent depuis des
-              millenaires dans de nombreuses cultures :
+              L&apos;histoire nous montre le contraire. Les identités transgenres existent depuis des
+              millénaires dans de nombreuses cultures :
             </p>
 
             <ul className="list-disc list-inside space-y-2 my-6">
-              <li><strong>Les Hijras</strong> en Asie du Sud - reconnues depuis des siecles</li>
-              <li><strong>Les Two-Spirit</strong> dans les cultures autochtones americaines</li>
-              <li><strong>Lili Elbe</strong> - l&apos;une des premieres femmes a avoir subi une chirurgie de reaffirmation de genre dans les annees 1930</li>
+              <li><strong>Les Hijras</strong> en Asie du Sud - reconnues depuis des siècles</li>
+              <li><strong>Les Two-Spirit</strong> dans les cultures autochtones américaines</li>
+              <li><strong>Lili Elbe</strong> - l&apos;une des premières femmes à avoir subi une chirurgie de réaffirmation de genre dans les années 1930</li>
               <li><strong>Les Muxes</strong> au Mexique - une tradition millénaire</li>
             </ul>
 
             <p>
-              Ce qui est nouveau, c&apos;est la visibilite et l&apos;acceptation croissante, pas l&apos;existence
-              des personnes trans elles-memes.
+              Ce qui est nouveau, c&apos;est la visibilité et l&apos;acceptation croissante, pas l&apos;existence
+              des personnes trans elles-mêmes.
             </p>
 
             <div className="bg-pink-50 border-l-4 border-pink-500 p-6 my-8 rounded-r-xl">
               <p className="text-pink-800 font-medium mb-0">
                 Vous souhaitez rencontrer des femmes trans ? Notre site partenaire propose des
-                profils vérifiés dans toute la France, de <Link href="/ville/paris" className="text-pink-600 hover:text-pink-700">Paris</Link> a
+                profils vérifiés dans toute la France, de <Link href="/ville/paris" className="text-pink-600 hover:text-pink-700">Paris</Link> à
                 <Link href="/ville/marseille" className="text-pink-600 hover:text-pink-700"> Marseille</Link>.
               </p>
               <a
@@ -143,7 +143,7 @@ export default function MythesTransgenrePage() {
                 rel="noopener noreferrer nofollow"
                 className="inline-flex items-center gap-2 bg-pink-600 text-white font-semibold px-6 py-3 rounded-full mt-4 hover:bg-pink-700 transition-all"
               >
-                Decouvrir les profils
+                Découvrir les profils
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -151,7 +151,7 @@ export default function MythesTransgenrePage() {
             </div>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
-              Mythe 3 : Les enfants ne peuvent pas connaitre leur identite de genre
+              Mythe 3 : Les enfants ne peuvent pas connaître leur identité de genre
             </h2>
 
             <div className="bg-red-50 border-l-4 border-red-500 p-4 my-6 rounded-r-xl">
@@ -159,15 +159,15 @@ export default function MythesTransgenrePage() {
             </div>
 
             <p>
-              Selon l&apos;Association Americaine de Psychologie, les enfants peuvent avoir une forte
-              conscience de leur identite de genre des le plus jeune age. La plupart des enfants
-              developpent une conscience de leur genre entre 3 et 5 ans.
+              Selon l&apos;Association Américaine de Psychologie, les enfants peuvent avoir une forte
+              conscience de leur identité de genre dès le plus jeune âge. La plupart des enfants
+              développent une conscience de leur genre entre 3 et 5 ans.
             </p>
 
             <p>
-              Cette comprehension precoce n&apos;est pas specifique aux enfants trans - tous les enfants
-              developpent leur identite de genre tot dans leur vie. Les enfants trans expriment
-              simplement une identite differente de celle qu&apos;on leur a assignee.
+              Cette compréhension précoce n&apos;est pas spécifique aux enfants trans - tous les enfants
+              développent leur identité de genre tôt dans leur vie. Les enfants trans expriment
+              simplement une identité différente de celle qu&apos;on leur a assignée.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
@@ -179,15 +179,15 @@ export default function MythesTransgenrePage() {
             </div>
 
             <p>
-              L&apos;identite de genre et l&apos;orientation sexuelle sont deux choses distinctes.
-              Une femme trans peut etre attirée par les hommes (heterosexuelle), par les femmes
+              L&apos;identité de genre et l&apos;orientation sexuelle sont deux choses distinctes.
+              Une femme trans peut être attirée par les hommes (hétérosexuelle), par les femmes
               (lesbienne), par les deux (bisexuelle) ou par aucun des deux (asexuelle).
             </p>
 
             <p>
-              Cette diversite se retrouve dans les <strong>rencontres trans</strong> : certaines femmes
-              trans recherchent des partenaires masculins, d&apos;autres feminins, d&apos;autres encore
-              sont ouvertes a differents types de relations.
+              Cette diversité se retrouve dans les <strong>rencontres trans</strong> : certaines femmes
+              trans recherchent des partenaires masculins, d&apos;autres féminins, d&apos;autres encore
+              sont ouvertes à différents types de relations.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
@@ -202,18 +202,18 @@ export default function MythesTransgenrePage() {
               La transition est un parcours personnel et unique pour chaque individu. Certaines
               personnes trans choisissent des interventions chirurgicales, d&apos;autres optent pour
               un traitement hormonal seul, et d&apos;autres encore ne souhaitent aucune modification
-              medicale.
+              médicale.
             </p>
 
             <p>
-              Toutes ces experiences sont valides. L&apos;identite d&apos;une personne ne depend pas de son
-              corps ou des procedures medicales qu&apos;elle a subies ou non.
+              Toutes ces expériences sont valides. L&apos;identité d&apos;une personne ne dépend pas de son
+              corps ou des procédures médicales qu&apos;elle a subies ou non.
             </p>
 
             <div className="bg-gradient-to-r from-pink-500 to-purple-500 text-white p-8 rounded-2xl my-10">
-              <h3 className="text-xl font-bold mb-4">Pret a faire des rencontres trans ?</h3>
+              <h3 className="text-xl font-bold mb-4">Prêt à faire des rencontres trans ?</h3>
               <p className="mb-6">
-                Maintenant que vous connaissez mieux la realite des personnes trans, pourquoi ne pas
+                Maintenant que vous connaissez mieux la réalité des personnes trans, pourquoi ne pas
                 faire de belles rencontres ? Notre site partenaire propose des profils vérifiés dans
                 toute la France.
               </p>
@@ -231,15 +231,15 @@ export default function MythesTransgenrePage() {
             </div>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
-              L&apos;importance de l&apos;education
+              L&apos;importance de l&apos;éducation
             </h2>
 
             <p>
-              Comprendre ces realites est essentiel pour des <strong>rencontres trans</strong>
+              Comprendre ces réalités est essentiel pour des <strong>rencontres trans</strong>
               respectueuses et enrichissantes. Que vous soyez en
-              <Link href="/region/auvergne-rhone-alpes" className="text-pink-600 hover:text-pink-700 font-medium"> Auvergne-Rhone-Alpes</Link>,
+              <Link href="/region/auvergne-rhone-alpes" className="text-pink-600 hover:text-pink-700 font-medium"> Auvergne-Rhône-Alpes</Link>,
               en <Link href="/region/occitanie" className="text-pink-600 hover:text-pink-700 font-medium">Occitanie</Link> ou
-              ailleurs, traiter les personnes trans avec respect commence par comprendre leur realite.
+              ailleurs, traiter les personnes trans avec respect commence par comprendre leur réalité.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
@@ -247,21 +247,21 @@ export default function MythesTransgenrePage() {
             </h2>
 
             <p>
-              Demystifier ces mythes est une etape cruciale vers une societe plus inclusive.
-              Les personnes transgenres meritent d&apos;etre comprises et respectees pour qui elles sont,
-              pas jugees sur des stereotypes errones.
+              Démystifier ces mythes est une étape cruciale vers une société plus inclusive.
+              Les personnes transgenres méritent d&apos;être comprises et respectées pour qui elles sont,
+              pas jugées sur des stéréotypes erronés.
             </p>
 
             <p>
-              Pour approfondir votre comprehension, consultez notre article sur la
+              Pour approfondir votre compréhension, consultez notre article sur la
               <Link href="/definition-transgenre-transsexuel-non-binaire" className="text-pink-600 hover:text-pink-700 font-medium"> terminologie transgenre</Link>
-              ou decouvrez les <Link href="/personnalites-publiques-transgenres-inspirantes" className="text-pink-600 hover:text-pink-700 font-medium">personnalites trans inspirantes</Link>.
+              ou découvrez les <Link href="/personnalites-publiques-transgenres-inspirantes" className="text-pink-600 hover:text-pink-700 font-medium">personnalités trans inspirantes</Link>.
             </p>
           </div>
         </div>
       </article>
 
-      {/* Articles Lies */}
+      {/* Articles Liés */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-800 mb-8">Articles similaires</h2>

@@ -28,23 +28,23 @@ export default function Disclaimer() {
             <span className="text-3xl font-bold text-pink-600">18+</span>
           </div>
           <h2 className="text-xl font-bold text-gray-800 mb-2">
-            Site reserve aux adultes
+            Site réservé aux adultes
           </h2>
           <p className="text-gray-600 text-sm">
-            Ce site contient du contenu destine a un public adulte.
+            Ce site contient du contenu destiné à un public adulte.
             En continuant, vous certifiez avoir au moins 18 ans.
           </p>
         </div>
 
         <div className="bg-gray-50 rounded-xl p-4 mb-6 text-xs text-gray-500">
           <p className="mb-2">
-            <strong>Site affilie</strong> : Ce site vous redirige vers notre partenaire de confiance.
-            Les profils presentes sont des exemples illustratifs.
+            <strong>Site affilié</strong> : Ce site vous redirige vers notre partenaire de confiance.
+            Les profils présentés sont des exemples illustratifs.
           </p>
           <p>
             En continuant, vous acceptez nos{' '}
-            <a href="/mentions-legales" className="text-pink-600 hover:underline">mentions legales</a> et notre{' '}
-            <a href="/politique-confidentialite" className="text-pink-600 hover:underline">politique de confidentialite</a>.
+            <a href="/mentions-legales" className="text-pink-600 hover:underline">mentions légales</a> et notre{' '}
+            <a href="/politique-confidentialite" className="text-pink-600 hover:underline">politique de confidentialité</a>.
           </p>
         </div>
 

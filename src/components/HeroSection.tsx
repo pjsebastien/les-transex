@@ -57,7 +57,7 @@ export default function HeroSection() {
         <div className="max-w-6xl mx-auto px-4 py-12 md:py-16 pb-20">
           <div className="max-w-4xl mx-auto text-center text-white">
             <div className="inline-block bg-white/10 backdrop-blur-sm text-sm font-medium px-4 py-2 rounded-full mb-6 border border-white/20">
-              Site de rencontre trans N1 en France
+              Site de rencontre trans N°1 en France
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">

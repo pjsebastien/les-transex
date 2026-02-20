@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import ProfileGrid from '@/components/ProfileGrid';
 import CTASection from '@/components/CTASection';
 import SearchBar from '@/components/SearchBar';
-import { LocalBusinessSchema, BreadcrumbSchema } from '@/components/JsonLd';
+import { ServiceSchema, BreadcrumbSchema } from '@/components/JsonLd';
 import { regions } from '@/data/regions';
 import { departments } from '@/data/departments';
 import { cities } from '@/data/cities';
@@ -73,7 +73,7 @@ export default async function RegionPage({ params }: PageProps) {
 
   return (
     <>
-      <LocalBusinessSchema
+      <ServiceSchema
         name={`Rencontre Trans ${region.name}`}
         description={`Site de rencontre pour femmes transgenres en ${region.name}. Profils vérifiés et inscription gratuite.`}
         url={`/region/${region.slug}`}

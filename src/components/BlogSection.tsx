@@ -10,7 +10,7 @@ export default function BlogSection() {
             Notre Blog
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Conseils, guides et actualites sur les rencontres trans
+            Conseils, guides et actualités sur les rencontres trans
           </p>
         </div>
 

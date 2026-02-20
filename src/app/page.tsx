@@ -287,7 +287,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-6 italic leading-relaxed">
-                &quot;J&apos;apprecie la discretion du site. J&apos;ai pu faire des rencontres en toute tranquillite. Merci pour ce service de qualite.&quot;
+                &quot;J&apos;apprécie la discrétion du site. J&apos;ai pu faire des rencontres en toute tranquillité. Merci pour ce service de qualité.&quot;
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full flex items-center justify-center text-white font-bold">
@@ -320,19 +320,19 @@ export default function Home() {
             <p className="text-lg leading-relaxed">
               <strong>{SITE_NAME}</strong> est votre guide pour trouver des <strong>rencontres trans</strong> authentiques
               partout en France. Nous vous mettons en relation avec notre site partenaire de confiance,
-              leader des <strong>rencontres transgenres</strong> en France depuis plusieurs annees.
+              leader des <strong>rencontres transgenres</strong> en France depuis plusieurs années.
             </p>
 
             <p className="text-lg leading-relaxed">
-              Les <strong>rencontres trans</strong> ont longtemps ete difficiles a organiser. Les sites generalistes ne proposent
-              pas toujours des filtres adaptes, et les communautes sont souvent dispersees. Notre partenaire a ete concu
-              specifiquement pour faciliter les rencontres entre personnes interessees par les femmes transgenres.
+              Les <strong>rencontres trans</strong> ont longtemps été difficiles à organiser. Les sites généralistes ne proposent
+              pas toujours des filtres adaptés, et les communautés sont souvent dispersées. Notre partenaire a été conçu
+              spécifiquement pour faciliter les rencontres entre personnes intéressées par les femmes transgenres.
             </p>
 
             <p className="text-lg leading-relaxed">
-              Que vous recherchiez une <strong>rencontre trans a Paris</strong>, <strong>Lyon</strong>,
+              Que vous recherchiez une <strong>rencontre trans à Paris</strong>, <strong>Lyon</strong>,
               <strong> Marseille</strong>, <strong>Toulouse</strong>, <strong>Bordeaux</strong> ou dans n&apos;importe quelle autre ville de France,
-              vous trouverez des profils vérifiés de femmes transgenres pres de chez vous.
+              vous trouverez des profils vérifiés de femmes transgenres près de chez vous.
             </p>
 
             <div className="bg-white rounded-2xl p-8 my-8 shadow-sm">
@@ -357,13 +357,13 @@ export default function Home() {
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span>Profils vérifiés pour plus de securite</span>
+                  <span>Profils vérifiés pour plus de sécurité</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span>Messagerie illimitee</span>
+                  <span>Messagerie illimitée</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -375,24 +375,24 @@ export default function Home() {
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span>Service client reactif</span>
+                  <span>Service client réactif</span>
                 </div>
               </div>
             </div>
 
             <h3 className="text-2xl font-bold text-gray-800 mt-12 mb-4">
-              Comment faire une rencontre trans reussie ?
+              Comment faire une rencontre trans réussie ?
             </h3>
 
             <p className="text-lg leading-relaxed">
-              Faire une <strong>rencontre trans</strong> reussie passe par le respect mutuel et une communication claire.
-              Soyez honnete sur vos intentions et respectez toujours les limites de votre interlocutrice.
-              Les femmes trans sont des personnes comme les autres, qui meritent d&apos;etre traitees avec dignite.
+              Faire une <strong>rencontre trans</strong> réussie passe par le respect mutuel et une communication claire.
+              Soyez honnête sur vos intentions et respectez toujours les limites de votre interlocutrice.
+              Les femmes trans sont des personnes comme les autres, qui méritent d&apos;être traitées avec dignité.
             </p>
 
             <p className="text-lg leading-relaxed">
               Sur notre site partenaire, prenez le temps de lire les profils attentivement. Chaque femme trans a ses propres
-              attentes et preferences. Certaines recherchent une relation serieuse, d&apos;autres des rencontres plus
+              attentes et préférences. Certaines recherchent une relation sérieuse, d&apos;autres des rencontres plus
               occasionnelles. Assurez-vous que vos attentes correspondent avant d&apos;engager la conversation.
             </p>
 
@@ -401,16 +401,16 @@ export default function Home() {
             </h3>
 
             <p className="text-lg leading-relaxed">
-              Que vous habitiez en Ile-de-France, en Provence-Alpes-Cote d&apos;Azur, en Auvergne-Rhone-Alpes ou dans
-              n&apos;importe quelle autre region, vous trouverez des profils de femmes trans pres de chez vous.
-              Notre partenaire couvre l&apos;ensemble du territoire francais, des grandes metropoles aux villes moyennes.
+              Que vous habitiez en Île-de-France, en Provence-Alpes-Côte d&apos;Azur, en Auvergne-Rhône-Alpes ou dans
+              n&apos;importe quelle autre région, vous trouverez des profils de femmes trans près de chez vous.
+              Notre partenaire couvre l&apos;ensemble du territoire français, des grandes métropoles aux villes moyennes.
             </p>
 
             <div className="bg-pink-50 border-l-4 border-pink-500 p-6 my-8 rounded-r-xl">
               <p className="text-pink-800 font-medium">
                 <em>
-                  Site affilie - Nous vous redirigeons vers notre partenaire de confiance pour
-                  vous offrir la meilleure experience de rencontre trans. L&apos;inscription est gratuite et sans engagement.
+                  Site affilié - Nous vous redirigeons vers notre partenaire de confiance pour
+                  vous offrir la meilleure expérience de rencontre trans. L&apos;inscription est gratuite et sans engagement.
                 </em>
               </p>
             </div>
@@ -422,7 +422,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center">
-            Questions frequentes
+            Questions fréquentes
           </h2>
 
           <div className="space-y-6">
@@ -431,8 +431,8 @@ export default function Home() {
                 L&apos;inscription est-elle vraiment gratuite ?
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Oui, l&apos;inscription sur notre site partenaire est 100% gratuite. Vous pouvez creer votre profil,
-                parcourir les autres profils et envoyer des messages sans depenser un centime.
+                Oui, l&apos;inscription sur notre site partenaire est 100% gratuite. Vous pouvez créer votre profil,
+                parcourir les autres profils et envoyer des messages sans dépenser un centime.
               </p>
             </div>
 
@@ -441,18 +441,18 @@ export default function Home() {
                 Les profils sont-ils vérifiés ?
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Notre partenaire met en place un systeme de verification des profils pour limiter les faux comptes
-                et garantir des rencontres authentiques. Les profils vérifiés sont identifies par un badge.
+                Notre partenaire met en place un système de vérification des profils pour limiter les faux comptes
+                et garantir des rencontres authentiques. Les profils vérifiés sont identifiés par un badge.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-2xl p-6">
               <h3 className="text-lg font-bold text-gray-800 mb-3">
-                Ma vie privee est-elle protegee ?
+                Ma vie privée est-elle protégée ?
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                La discretion est une priorite absolue. Vos donnees personnelles sont protegees et ne sont jamais
-                partagees avec des tiers. Vous pouvez naviguer et echanger en toute confidentialite.
+                La discrétion est une priorité absolue. Vos données personnelles sont protégées et ne sont jamais
+                partagées avec des tiers. Vous pouvez naviguer et échanger en toute confidentialité.
               </p>
             </div>
 
@@ -461,8 +461,8 @@ export default function Home() {
                 Puis-je utiliser le site sur mobile ?
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Absolument ! Le site de notre partenaire est entierement responsive et fonctionne parfaitement
-                sur smartphone et tablette. Vous pouvez faire des rencontres ou que vous soyez.
+                Absolument ! Le site de notre partenaire est entièrement responsive et fonctionne parfaitement
+                sur smartphone et tablette. Vous pouvez faire des rencontres où que vous soyez.
               </p>
             </div>
           </div>

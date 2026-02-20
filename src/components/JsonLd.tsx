@@ -134,31 +134,36 @@ export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
   );
 }
 
-// Schema LocalBusiness pour les pages de villes
-interface LocalBusinessSchemaProps {
+// Schema Service pour les pages de villes/départements/régions
+interface ServiceSchemaProps {
   name: string;
   description: string;
   url: string;
   areaServed: string;
 }
 
-export function LocalBusinessSchema({
+export function ServiceSchema({
   name,
   description,
   url,
   areaServed,
-}: LocalBusinessSchemaProps) {
+}: ServiceSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': 'Service',
     name: name,
     description: description,
     url: url.startsWith('http') ? url : `${BASE_URL}${url}`,
+    serviceType: 'Rencontre transgenre',
     areaServed: {
-      '@type': 'City',
+      '@type': 'Place',
       name: areaServed,
     },
-    priceRange: 'Gratuit',
+    provider: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: BASE_URL,
+    },
   };
 
   return (

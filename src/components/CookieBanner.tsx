@@ -37,7 +37,7 @@ export default function CookieBanner() {
             </div>
             <div className="flex-grow">
               <p className="text-sm text-gray-600">
-                Ce site utilise des cookies pour ameliorer votre experience.{' '}
+                Ce site utilise des cookies pour améliorer votre expérience.{' '}
                 <Link href="/politique-confidentialite" className="text-pink-600 hover:underline">
                   En savoir plus
                 </Link>

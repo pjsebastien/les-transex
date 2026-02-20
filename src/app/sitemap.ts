@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { cities } from '@/data/cities';
 import { regions } from '@/data/regions';
+import { departments } from '@/data/departments';
 import { blogPosts } from '@/data/blog';
 
 const BASE_URL = 'https://www.les-transex.com';
@@ -58,6 +59,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // Tous les départements
+  const departmentPages: MetadataRoute.Sitemap = departments.map((dept) => ({
+    url: `${BASE_URL}/departement/${dept.slug}`,
+    lastModified: currentDate,
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
   // Top 50 villes par population
   const top50Cities = [...cities]
     .sort((a, b) => b.population - a.population)
@@ -70,5 +79,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...mainPages, ...blogPages, ...regionPages, ...cityPages];
+  return [...mainPages, ...blogPages, ...regionPages, ...departmentPages, ...cityPages];
 }

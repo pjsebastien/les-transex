@@ -67,21 +67,21 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Informations</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/#about" className="hover:text-pink-400">A propos</Link></li>
+              <li><Link href="/#about" className="hover:text-pink-400">À propos</Link></li>
               <li><Link href="/#blog" className="hover:text-pink-400">Blog</Link></li>
-              <li><Link href="/mentions-legales" className="hover:text-pink-400">Mentions legales</Link></li>
-              <li><Link href="/politique-confidentialite" className="hover:text-pink-400">Politique de confidentialite</Link></li>
+              <li><Link href="/mentions-legales" className="hover:text-pink-400">Mentions légales</Link></li>
+              <li><Link href="/politique-confidentialite" className="hover:text-pink-400">Politique de confidentialité</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} {SITE_NAME}. Tous droits reserves.</p>
-          <p className="mt-2">Site reserve aux adultes (+18 ans) - Site affilie</p>
+          <p>&copy; {new Date().getFullYear()} {SITE_NAME}. Tous droits réservés.</p>
+          <p className="mt-2">Site réservé aux adultes (+18 ans) - Site affilié</p>
           <div className="mt-3 flex justify-center gap-4">
-            <Link href="/mentions-legales" className="hover:text-pink-400">Mentions legales</Link>
+            <Link href="/mentions-legales" className="hover:text-pink-400">Mentions légales</Link>
             <span>|</span>
-            <Link href="/politique-confidentialite" className="hover:text-pink-400">Confidentialite</Link>
+            <Link href="/politique-confidentialite" className="hover:text-pink-400">Confidentialité</Link>
           </div>
         </div>
       </div>

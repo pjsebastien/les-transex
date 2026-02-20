@@ -11,16 +11,16 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "bar-a-pute-dame-joelle",
-    title: "Exploration du Bar a Putes de Dame Joelle : Un Lieu de Rencontre et de Liberte",
-    excerpt: "Decouvrez ce lieu mythique de la vie nocturne parisienne, un espace de rencontres et de liberte ou les personnes trans sont les bienvenues.",
+    title: "Exploration du Bar à Putes de Dame Joëlle : Un Lieu de Rencontre et de Liberté",
+    excerpt: "Découvrez ce lieu mythique de la vie nocturne parisienne, un espace de rencontres et de liberté où les personnes trans sont les bienvenues.",
     category: "Conseils",
     date: "2024-05-10",
     readTime: "8 min"
   },
   {
     slug: "personnalites-publiques-transgenres-inspirantes",
-    title: "Personnalites Publiques Transgenres Inspirantes qui Faconnent Notre Monde",
-    excerpt: "Decouvrez les histoires inspirantes de personnalites transgenres celebres comme Laverne Cox, Caitlyn Jenner et Elliot Page.",
+    title: "Personnalités Publiques Transgenres Inspirantes qui Façonnent Notre Monde",
+    excerpt: "Découvrez les histoires inspirantes de personnalités transgenres célèbres comme Laverne Cox, Caitlyn Jenner et Elliot Page.",
     category: "Inspiration",
     date: "2023-07-08",
     readTime: "10 min"
@@ -28,15 +28,15 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "transgenre-libertin",
     title: "Les Rencontres Transgenres dans le Milieu Libertin : Guide Complet",
-    excerpt: "Tout savoir sur les rencontres trans dans le milieu libertin : histoire, evolution, defis et conseils pratiques.",
+    excerpt: "Tout savoir sur les rencontres trans dans le milieu libertin : histoire, évolution, défis et conseils pratiques.",
     category: "Rencontres",
     date: "2023-07-08",
     readTime: "12 min"
   },
   {
     slug: "mythes-courant-transgenre",
-    title: "Demasquer les Fictions : Mythes Courants sur les Personnes Transgenres",
-    excerpt: "Demystifions les idees recues sur les personnes trans avec des faits scientifiques et des temoignages.",
+    title: "Démasquer les Fictions : Mythes Courants sur les Personnes Transgenres",
+    excerpt: "Démystifions les idées reçues sur les personnes trans avec des faits scientifiques et des témoignages.",
     category: "Education",
     date: "2023-07-08",
     readTime: "9 min"
@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "definition-transgenre-transsexuel-non-binaire",
     title: "Comprendre la Terminologie : Transgenre, Transsexuel, Non-Binaire",
-    excerpt: "Guide complet pour comprendre les termes lies a l'identite de genre et respecter la diversite de chacun.",
+    excerpt: "Guide complet pour comprendre les termes liés à l'identité de genre et respecter la diversité de chacun.",
     category: "Education",
     date: "2023-07-08",
     readTime: "11 min"

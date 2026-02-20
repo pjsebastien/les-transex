@@ -1,6 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
 import { AFFILIATE_LINK, SITE_NAME, PROFILE_IMAGES } from '@/lib/constants';
+
+export const metadata: Metadata = {
+  robots: 'noindex, nofollow',
+};
 
 export default function NotFound() {
   return (

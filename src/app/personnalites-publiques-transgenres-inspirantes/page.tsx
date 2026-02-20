@@ -7,23 +7,23 @@ import { ArticleSchema, BreadcrumbSchema } from '@/components/JsonLd';
 const BASE_URL = `https://www.${SITE_DOMAIN}`;
 
 export const metadata: Metadata = {
-  title: "Personnalites Transgenres Inspirantes : Laverne Cox, Elliot Page et Plus",
-  description: "Decouvrez les histoires inspirantes de personnalites transgenres celebres qui faconnent notre monde : Laverne Cox, Caitlyn Jenner, Elliot Page.",
-  keywords: ["personnalites trans", "laverne cox", "elliot page", "caitlyn jenner", "celebrites transgenres", "inspiration trans"],
+  title: "Personnalités Transgenres Inspirantes : Laverne Cox, Elliot Page et Plus",
+  description: "Découvrez les histoires inspirantes de personnalités transgenres célèbres qui façonnent notre monde : Laverne Cox, Caitlyn Jenner, Elliot Page.",
+  keywords: ["personnalités trans", "laverne cox", "elliot page", "caitlyn jenner", "célébrités transgenres", "inspiration trans"],
   alternates: {
     canonical: '/personnalites-publiques-transgenres-inspirantes',
   },
   openGraph: {
-    title: "Personnalites Transgenres Inspirantes",
-    description: "Decouvrez les histoires inspirantes de personnalites transgenres celebres.",
+    title: "Personnalités Transgenres Inspirantes",
+    description: "Découvrez les histoires inspirantes de personnalités transgenres célèbres.",
     url: `${BASE_URL}/personnalites-publiques-transgenres-inspirantes`,
     type: 'article',
     publishedTime: '2023-07-08',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Personnalites Transgenres Inspirantes",
-    description: "Decouvrez les histoires inspirantes de personnalites transgenres celebres.",
+    title: "Personnalités Transgenres Inspirantes",
+    description: "Découvrez les histoires inspirantes de personnalités transgenres célèbres.",
   },
 };
 
@@ -33,8 +33,8 @@ export default function PersonnalitesTransPage() {
   return (
     <>
       <ArticleSchema
-        title="Personnalites Publiques Transgenres Inspirantes qui Faconnent Notre Monde"
-        description="Decouvrez les histoires inspirantes de personnalites transgenres celebres."
+        title="Personnalités Publiques Transgenres Inspirantes qui Façonnent Notre Monde"
+        description="Découvrez les histoires inspirantes de personnalités transgenres célèbres."
         slug="personnalites-publiques-transgenres-inspirantes"
         datePublished="2023-07-08"
         category="Inspiration"
@@ -43,7 +43,7 @@ export default function PersonnalitesTransPage() {
         items={[
           { name: 'Accueil', url: '/' },
           { name: 'Blog', url: '/#blog' },
-          { name: 'Personnalites transgenres', url: '/personnalites-publiques-transgenres-inspirantes' },
+          { name: 'Personnalités transgenres', url: '/personnalites-publiques-transgenres-inspirantes' },
         ]}
       />
       {/* Hero Article */}
@@ -54,7 +54,7 @@ export default function PersonnalitesTransPage() {
             <span className="mx-2">/</span>
             <Link href="/#blog" className="hover:text-white">Blog</Link>
             <span className="mx-2">/</span>
-            <span>Personnalites transgenres</span>
+            <span>Personnalités transgenres</span>
           </nav>
 
           <div className="inline-block bg-white/20 text-sm font-medium px-3 py-1 rounded-full mb-4">
@@ -62,7 +62,7 @@ export default function PersonnalitesTransPage() {
           </div>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Personnalites Publiques Transgenres Inspirantes qui Faconnent Notre Monde
+            Personnalités Publiques Transgenres Inspirantes qui Façonnent Notre Monde
           </h1>
 
           <div className="flex items-center gap-4 text-pink-200">
@@ -78,30 +78,30 @@ export default function PersonnalitesTransPage() {
         <div className="max-w-3xl mx-auto px-4">
           <div className="prose prose-lg prose-pink max-w-none">
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              Nous vivons a une epoque passionnante ou l&apos;acceptation et l&apos;ouverture d&apos;esprit predominent
-              sur l&apos;exclusion. Les personnalites transgenres jouent un role crucial dans cette evolution,
-              brisant les barrieres et inspirant des millions de personnes a travers le monde.
+              Nous vivons à une époque passionnante où l&apos;acceptation et l&apos;ouverture d&apos;esprit prédominent
+              sur l&apos;exclusion. Les personnalités transgenres jouent un rôle crucial dans cette évolution,
+              brisant les barrières et inspirant des millions de personnes à travers le monde.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
-              Laverne Cox : Pionniere et Icone
+              Laverne Cox : Pionnière et Icône
             </h2>
 
             <p>
-              <strong>Laverne Cox</strong> est devenue la premiere personne transgenre nominee pour un Emmy Award
-              grace a son role memorable de Sophia Burset dans <em>Orange Is the New Black</em>. Au-dela de son
+              <strong>Laverne Cox</strong> est devenue la première personne transgenre nominée pour un Emmy Award
+              grâce à son rôle mémorable de Sophia Burset dans <em>Orange Is the New Black</em>. Au-delà de son
               talent d&apos;actrice, elle est une militante infatigable pour les droits des personnes trans.
             </p>
 
             <p>
-              Son parcours inspire des milliers de femmes transgenres a travers le monde, y compris en France.
+              Son parcours inspire des milliers de femmes transgenres à travers le monde, y compris en France.
               Si vous souhaitez faire des <Link href="/region/ile-de-france" className="text-pink-600 hover:text-pink-700 font-medium">rencontres trans en Ile-de-France</Link>,
               vous rencontrerez probablement des personnes qui citent Laverne Cox comme source d&apos;inspiration.
             </p>
 
             <div className="bg-purple-50 border-l-4 border-purple-500 p-6 my-8 rounded-r-xl">
               <blockquote className="text-purple-800 font-medium italic mb-0">
-                &quot;Chaque personne trans a le droit de vivre authentiquement et d&apos;etre aimee pour qui elle est.&quot;
+                &quot;Chaque personne trans a le droit de vivre authentiquement et d&apos;être aimée pour qui elle est.&quot;
               </blockquote>
               <cite className="text-purple-600 text-sm mt-2 block">- Laverne Cox</cite>
             </div>
@@ -111,36 +111,36 @@ export default function PersonnalitesTransPage() {
             </h2>
 
             <p>
-              Ancienne championne olympique du decathlon, <strong>Caitlyn Jenner</strong> (anciennement Bruce Jenner)
-              a fait son coming out en 2015, devenant l&apos;une des personnalites transgenres les plus connues au monde.
-              Sa transition publique a contribue a sensibiliser des millions de personnes aux realites des personnes trans.
+              Ancienne championne olympique du décathlon, <strong>Caitlyn Jenner</strong> (anciennement Bruce Jenner)
+              a fait son coming out en 2015, devenant l&apos;une des personnalités transgenres les plus connues au monde.
+              Sa transition publique a contribué à sensibiliser des millions de personnes aux réalités des personnes trans.
             </p>
 
             <p>
-              Son courage a inspire de nombreuses personnes a assumer leur identite, que ce soit a
+              Son courage a inspiré de nombreuses personnes à assumer leur identité, que ce soit à
               <Link href="/ville/paris" className="text-pink-600 hover:text-pink-700 font-medium"> Paris</Link>,
               <Link href="/ville/lyon" className="text-pink-600 hover:text-pink-700 font-medium"> Lyon</Link> ou
               <Link href="/ville/marseille" className="text-pink-600 hover:text-pink-700 font-medium"> Marseille</Link>.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
-              Elliot Page : Authenticite et Courage
+              Elliot Page : Authenticité et Courage
             </h2>
 
             <p>
-              L&apos;acteur <strong>Elliot Page</strong>, celebre pour son role dans <em>Juno</em>, a annonce son identite
-              d&apos;homme transgenre en 2020. Sa declaration publique a ete saluee pour son courage et a permis de
-              mettre en lumiere les experiences des hommes trans.
+              L&apos;acteur <strong>Elliot Page</strong>, célèbre pour son rôle dans <em>Juno</em>, a annoncé son identité
+              d&apos;homme transgenre en 2020. Sa déclaration publique a été saluée pour son courage et a permis de
+              mettre en lumière les expériences des hommes trans.
             </p>
 
             <p>
-              Elliot Page continue de jouer des roles importants a Hollywood tout en militant pour les droits LGBTQ+.
-              Son parcours montre que l&apos;authenticite et le succes professionnel peuvent aller de pair.
+              Elliot Page continue de jouer des rôles importants à Hollywood tout en militant pour les droits LGBTQ+.
+              Son parcours montre que l&apos;authenticité et le succès professionnel peuvent aller de pair.
             </p>
 
             <div className="bg-pink-50 border-l-4 border-pink-500 p-6 my-8 rounded-r-xl">
               <p className="text-pink-800 font-medium mb-0">
-                Vous souhaitez rencontrer des personnes transgenres pres de chez vous ? Notre site partenaire
+                Vous souhaitez rencontrer des personnes transgenres près de chez vous ? Notre site partenaire
                 propose des milliers de profils vérifiés dans toute la France.
               </p>
               <a
@@ -149,7 +149,7 @@ export default function PersonnalitesTransPage() {
                 rel="noopener noreferrer nofollow"
                 className="inline-flex items-center gap-2 bg-pink-600 text-white font-semibold px-6 py-3 rounded-full mt-4 hover:bg-pink-700 transition-all"
               >
-                Decouvrir les profils
+                Découvrir les profils
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -157,15 +157,15 @@ export default function PersonnalitesTransPage() {
             </div>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
-              Impact sur la Societe Francaise
+              Impact sur la Société Française
             </h2>
 
             <p>
-              Ces personnalites influencent egalement la perception des personnes trans en France. De plus en plus
-              de Francais sont ouverts aux <strong>rencontres trans</strong>, que ce soit en
-              <Link href="/region/provence-alpes-cote-dazur" className="text-pink-600 hover:text-pink-700 font-medium"> Provence-Alpes-Cote d&apos;Azur</Link>,
+              Ces personnalités influencent également la perception des personnes trans en France. De plus en plus
+              de Français sont ouverts aux <strong>rencontres trans</strong>, que ce soit en
+              <Link href="/region/provence-alpes-cote-dazur" className="text-pink-600 hover:text-pink-700 font-medium"> Provence-Alpes-Côte d&apos;Azur</Link>,
               en <Link href="/region/nouvelle-aquitaine" className="text-pink-600 hover:text-pink-700 font-medium">Nouvelle-Aquitaine</Link> ou
-              dans toutes les autres regions.
+              dans toutes les autres régions.
             </p>
 
             <h3 className="text-xl font-bold text-gray-800 mt-8 mb-3">
@@ -173,17 +173,17 @@ export default function PersonnalitesTransPage() {
             </h3>
 
             <p>
-              Les histoires de ces personnalites contribuent a normaliser l&apos;experience transgenre. Les medias
-              francais accordent de plus en plus de visibilite aux personnes trans, ce qui facilite leur integration
-              sociale et leurs possibilites de rencontres.
+              Les histoires de ces personnalités contribuent à normaliser l&apos;expérience transgenre. Les médias
+              français accordent de plus en plus de visibilité aux personnes trans, ce qui facilite leur intégration
+              sociale et leurs possibilités de rencontres.
             </p>
 
             <h3 className="text-xl font-bold text-gray-800 mt-8 mb-3">
-              Education et Sensibilisation
+              Éducation et Sensibilisation
             </h3>
 
             <p>
-              Grace a ces figures publiques, de nombreuses personnes comprennent mieux ce que signifie etre transgenre.
+              Grâce à ces figures publiques, de nombreuses personnes comprennent mieux ce que signifie être transgenre.
               Pour approfondir ce sujet, consultez notre article sur la
               <Link href="/definition-transgenre-transsexuel-non-binaire" className="text-pink-600 hover:text-pink-700 font-medium"> terminologie transgenre</Link>.
             </p>
@@ -193,26 +193,26 @@ export default function PersonnalitesTransPage() {
             </h3>
 
             <p>
-              L&apos;influence de ces personnalites depasse le cadre culturel. Elles contribuent a faire evoluer
-              les lois et les politiques en faveur des droits des personnes trans, aussi bien aux Etats-Unis qu&apos;en France.
+              L&apos;influence de ces personnalités dépasse le cadre culturel. Elles contribuent à faire évoluer
+              les lois et les politiques en faveur des droits des personnes trans, aussi bien aux États-Unis qu&apos;en France.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4">
-              Autres Personnalites Inspirantes
+              Autres Personnalités Inspirantes
             </h2>
 
             <ul className="list-disc list-inside space-y-3 my-6">
-              <li><strong>Jazz Jennings</strong> - Militante et personnalite televisuelle americaine</li>
-              <li><strong>Janet Mock</strong> - Ecrivaine, productrice et militante</li>
-              <li><strong>Indya Moore</strong> - Actrice de la serie Pose</li>
-              <li><strong>Kim Petras</strong> - Chanteuse pop germano-americaine</li>
-              <li><strong>Teddy Quinlivan</strong> - Mannequin de renommee internationale</li>
+              <li><strong>Jazz Jennings</strong> - Militante et personnalité télévisuelle américaine</li>
+              <li><strong>Janet Mock</strong> - Écrivaine, productrice et militante</li>
+              <li><strong>Indya Moore</strong> - Actrice de la série Pose</li>
+              <li><strong>Kim Petras</strong> - Chanteuse pop germano-américaine</li>
+              <li><strong>Teddy Quinlivan</strong> - Mannequin de renommée internationale</li>
             </ul>
 
             <div className="bg-gradient-to-r from-pink-500 to-purple-500 text-white p-8 rounded-2xl my-10">
               <h3 className="text-xl font-bold mb-4">Faites de belles rencontres trans</h3>
               <p className="mb-6">
-                Inspirez-vous de ces parcours et osez vivre vos propres experiences. Notre site partenaire
+                Inspirez-vous de ces parcours et osez vivre vos propres expériences. Notre site partenaire
                 vous permet de rencontrer des femmes trans dans toute la France.
               </p>
               <a
@@ -233,21 +233,21 @@ export default function PersonnalitesTransPage() {
             </h2>
 
             <p>
-              Les personnalites transgenres comme Laverne Cox, Caitlyn Jenner et Elliot Page sont des preuves
-              vivantes de la diversite, de la resilience et de l&apos;authenticite humaine. Leurs histoires nous
-              rappellent que chacun merite de vivre sa verite.
+              Les personnalités transgenres comme Laverne Cox, Caitlyn Jenner et Elliot Page sont des preuves
+              vivantes de la diversité, de la résilience et de l&apos;authenticité humaine. Leurs histoires nous
+              rappellent que chacun mérite de vivre sa vérité.
             </p>
 
             <p>
-              Pour en savoir plus sur la communaute trans, decouvrez notre article sur les
+              Pour en savoir plus sur la communauté trans, découvrez notre article sur les
               <Link href="/mythes-courant-transgenre" className="text-pink-600 hover:text-pink-700 font-medium"> mythes courants sur les personnes transgenres</Link>
-              ou explorez les possibilites de <Link href="/transgenre-libertin" className="text-pink-600 hover:text-pink-700 font-medium">rencontres trans dans le milieu libertin</Link>.
+              ou explorez les possibilités de <Link href="/transgenre-libertin" className="text-pink-600 hover:text-pink-700 font-medium">rencontres trans dans le milieu libertin</Link>.
             </p>
           </div>
         </div>
       </article>
 
-      {/* Articles Lies */}
+      {/* Articles Liés */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-800 mb-8">Articles similaires</h2>
